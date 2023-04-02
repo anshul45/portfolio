@@ -6,8 +6,16 @@ import Works from "./components/Works";
 
 const Container = styled.div`
   height: 100vh;
-  background-color: rebeccapurple;
+  overflow-y: auto;
+  scrollbar-width: none;
+  color: white;
+  background: url("./img/bg.jpeg");
+  &::-webkit-scrollbar {
+    display: none;
+  }
 `;
+
+//jr typing tutor
 
 function App() {
   return (
