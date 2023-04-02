@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+
 const Section = styled.div`
   display: flex;
   justify-content: center;
@@ -10,6 +11,7 @@ const Container = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px 0px;
 `;
 
 const Links = styled.div`
@@ -28,13 +30,30 @@ const List = styled.ul`
   list-style: none;
 `;
 
-const ListItem = styled.li``;
+const ListItem = styled.li`
+  cursor: pointer;
+`;
 
-const Icons = styled.div``;
+const Icons = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 20px;
+`;
 
-const Icon = styled.img``;
+const Icon = styled.img`
+  width: 20px;
+  cursor: pointer;
+`;
 
-const Button = styled.button``;
+const Button = styled.button`
+  width: 100px;
+  padding: 10px;
+  background-color: #da4ea2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+`;
 
 const Navbar = () => {
   return (
