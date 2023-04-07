@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import Contact from "./components/Contact";
 import Hero from "./components/Hero";
-import Test from "./components/Test";
 import Who from "./components/Who";
 import Works from "./components/Works";
 
@@ -25,7 +24,6 @@ function App() {
       <Who />
       <Works />
       <Contact />
-      <Test />
     </Container>
   );
 }
